@@ -1,6 +1,11 @@
 # Peritys-Innovations
 
 #Here's a detailed README file for your project that includes all essential instructions for setting up and running of model:
+This project demonstrates training a robust speech synthesis model using the VITS architecture, focusing on a non-Hindi language from the AI4Bharat data corpus. The main objective is to create a high-quality model capable of generating audio from text input and converting WAV audio to FLAC format via WebSockets. The setup begins by mounting Google Drive to access and store data conveniently. The dataset is downloaded from a specified URL and extracted for use. The code ensures dependencies like ffmpeg, librosa, and soundfile are installed, and the VITS repository is cloned for accessing model scripts.
+
+Data preparation involves parsing JSON files to extract transcripts, which are saved in a CSV format suitable for training. Audio files are normalized to maintain consistent sound quality. The data is split into training, validation, and testing sets to evaluate the model's generalization ability. A comprehensive model configuration is set up using the VitsConfig, specifying parameters such as batch size, number of epochs, and phoneme settings. The audio processor and tokenizer are initialized to convert text into token IDs for model training.
+
+Model training is managed through the Trainer class, which handles training and evaluation iterations. Regular checkpointing saves model weights for progress tracking and potential resumption. The model can generate audio from text through a defined inference pipeline, producing high-quality synthesized speech. Error handling throughout the code ensures the robustness of the data processing and training workflow, skipping over corrupted or missing files to prevent interruptions. This project setup, with detailed code and configuration, provides a clear path to training a custom VITS model for speech synthesis in non-Hindi languages.
 # Non-Hindi Speech Synthesis Model with VITS
 
 ## Project Overview
