@@ -12,8 +12,6 @@ This project focuses on training a speech synthesis model using the VITS archite
 - [Dataset Preparation](#dataset-preparation)
 - [Model Training](#model-training)
 - [Evaluation and Optimization](#evaluation-and-optimization)
-- [Deployment](#deployment)
-- [Troubleshooting](#troubleshooting)
 
 ## Project Setup
 
