@@ -20,7 +20,7 @@ This project focuses on training a speech synthesis model using the VITS archite
 #1. Prerequisites
 Ensure you have the following installed:
 - Python 3.7+
-- [Google Colab](https://colab.research.google.com/) or local Jupyter Notebook
+- [Google Colab]([https://colab.research.google.com/](https://colab.research.google.com/drive/1gi4Nf6M1JH0XF1jVDnNVj-9NdYfYUV1y?usp=sharing)) or local Jupyter Notebook
 - `ffmpeg` for audio processing
 - Git for repository cloning
 
